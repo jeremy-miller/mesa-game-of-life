@@ -25,7 +25,7 @@ canvas = mesa.visualization.CanvasGrid(
     portrayal, GRID_WIDTH, GRID_HEIGHT, CANVAS_WIDTH, CANVAS_HEIGHT
 )
 
-model_params = {"height": GRID_WIDTH, "width": GRID_HEIGHT}
+model_params = {"width": GRID_WIDTH, "height": GRID_HEIGHT}
 
 server = mesa.visualization.ModularServer(
     GameOfLife, [canvas], "Game of Life", model_params
